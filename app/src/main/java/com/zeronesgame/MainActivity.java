@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     mStrEnteredNo = "";
                     mStrGeneratedNo = "";
                 }else {
+
                     if ((mStringList[pos] + "").equalsIgnoreCase(mStrEnteredNo)
                             || (mStringList[pos] + "").equalsIgnoreCase(mStrGeneratedNo)) {
                         Toast.makeText(MainActivity.this, "YOU ARE OUT", Toast.LENGTH_SHORT).show();
